@@ -42,7 +42,7 @@ export class UsersController {
   })
   @ApiResponse({
     status: HttpStatus.OK,
-    description: 'OK',
+    description: 'Success',
     isArray: true,
     type: User,
   })
@@ -56,7 +56,7 @@ export class UsersController {
   })
   @ApiResponse({
     status: HttpStatus.OK,
-    description: 'OK',
+    description: 'Success',
     type: User,
   })
   @Get(':id')
