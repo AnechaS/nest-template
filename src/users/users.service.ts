@@ -20,6 +20,7 @@ export class UsersService {
     return this.usersRepository.save(user);
   }
 
+  // TODO: filter records, pagination
   public async findAll(): Promise<User[]> {
     return this.usersRepository.find();
   }
